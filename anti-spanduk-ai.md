@@ -14,11 +14,21 @@ Instruksi ini untuk ChatGPT atau Gemini yang memiliki fitur pembuatan gambar. Fi
 2. Tanyakan hanya informasi yang benar-benar menghalangi pengerjaan. Jika brief cukup, langsung buat gambar. Jangan mengulang pertanyaan yang sudah terjawab atau meminta persetujuan atas prompt internal.
 3. Susun arahan visual secara internal: satu pesan utama, hierarki teks, posisi produk, palet, dan ruang kosong. Pilih detail visual yang belum ditentukan sesuai konteks, tanpa mengarang fakta promosi.
 4. Gunakan fitur pembuatan gambar yang tersedia. Semua elemen, termasuk teks, harus dihasilkan image generator, bukan ditambahkan melalui HTML, SVG, atau editor teks terpisah.
-5. Hasilkan desain datar yang memenuhi kanvas, bukan foto spanduk terpasang, mockup ruangan, perspektif miring, atau gambar dengan bingkai presentasi, kecuali diminta.
+5. Hasilkan desain datar yang memenuhi kanvas, bukan foto spanduk terpasang, mockup ruangan, perspektif miring, atau gambar dengan bingkai presentasi, kecuali diminta. Kanvas 100% hanya berisi artwork desain murni: dilarang menggambar panah ukuran fisik (seperti panah "3 m", "1 m"), penggaris dimensi, tali tambang pengikat, paku, atau tiang gantungan.
 6. Jika gambar dapat diperiksa, bandingkan hasil dengan brief. Perbaiki kesalahan yang terlihat melalui fitur generasi atau pengeditan gambar yang tersedia. Jangan mengaku telah memeriksa hasil yang tidak dapat dilihat.
 7. Serahkan gambar. Sertakan catatan singkat mengenai kesalahan yang belum terselesaikan atau keterbatasan ukuran dan cetak. Jangan mengganti hasil dengan penjelasan panjang.
 
 Jika perbaikan tetap gagal setelah dua percobaan perbaikan, hentikan dan jelaskan bagian yang belum benar. Jangan menyatakan hasil lolos pemeriksaan.
+
+### Brief singkat atau minimal
+
+Jika pengguna hanya memberikan informasi minimal seperti ukuran dan nama usaha (misal: *"buat spanduk 3x1 bubur ayam mang ujang"*):
+- Jangan menunda atau meminta rincian tambahan; langsung eksekusi desain.
+- **Teks wajib**: Jadikan nama/produk yang diberikan sebagai satu-satunya teks utama yang besar, tebal, dan terbaca dari jauh. Jangan mengarang menu tambahan, nomor HP, harga, jam operasional, atau slogan fiktif hanya untuk mengisi ruang.
+- **Gaya visual default**:
+  - **Kuliner/makanan**: Gunakan fotografi produk riil dengan pencahayaan terang merata (*clean high-key / bright daylight*), tampilan tekstur makanan nyata dan segar, serta isolasi mangkuk/piring yang bersih (*clean cut-out*), ATAU gaya lukisan spanduk kain tradisional warung kaki lima. **Dilarang**: suasana kafe/kedai remang-remang ber-bokeh kuning, uap berasap tebal dramatis (*fake dry-ice steam*), tekstur makanan mengilap seperti plastik/lilin (*plastic sheen*), sendok melayang tanpa tangan, ornamen gerabah/alat masak acak di latar, dan ilustrasi kartun/vektor flat.
+  - **Non-kuliner**: Gunakan fotografi nyata relevan atau tipografi tegas di atas latar bersih.
+- **Komposisi default**: Tata letak fungsional yang lugas (misal: visual produk riil dominan di satu sisi, tipografi nama usaha kontras tinggi di sisi lainnya). Hindari ornamen lengkung generik (*blobs*), corak batik/etnik tempelan tanpa kaitan merek, efek teks stiker kartun (multi-stroke tebal bertumpuk), ikon mikro aplikasi, dan simulasi lubang mata ayam pada kanvas.
 
 ## Ketepatan isi
 
@@ -57,6 +67,13 @@ Jika perbaikan tetap gagal setelah dua percobaan perbaikan, hentikan dan jelaska
 | Komposisi template yang sama untuk semua usaha | Sesuaikan arah baca, proporsi visual, dan penempatan teks dengan isi. |
 | Banyak slogan dan klaim promosi yang tidak diberikan | Gunakan teks pengguna; jangan mengarang manfaat atau fakta. |
 | Bingkai dekoratif padat dan elemen memenuhi tepi | Beri ruang untuk pemotongan, pemasangan, dan pemisahan informasi. |
+| Ilustrasi kartun/vektor flat generik untuk kuliner atau produk fisik | Gunakan fotografi produk riil yang menggugah selera atau gaya visual otentik (seperti lukisan kain spanduk kaki lima); hindari clipart/vektor template. |
+| Ikon antarmuka/infografis mikro (jam, kalender, telepon bulat, pin lokasi) | Tampilkan informasi langsung via tipografi bersih dan tata letak hierarkis tanpa ikon-ikon aplikasi. |
+| Simulasi mata ayam (grommet), ring gantungan, tali tambang, atau jahitan pada gambar | Buat desain datar bersih tanpa simulasi perangkat keras fisik; mata ayam dan tali dipasang manual saat cetak. |
+| Panah dimensi ukuran fisik (misal: "3 m", "1 m"), garis ukur, atau tiang gantungan | Kanvas 100% hanya berisi karya desain murni; jangan sertakan elemen diagram teknis atau alat peraga mockup. |
+| Foto makanan remang-remang (*moody amber cafe bokeh*), uap dramatis, atau tekstur lilin | Gunakan pencahayaan terang merata (*clean daylight/high-key*), mangkuk bersih terisolasi, dan tekstur alami makanan asli. |
+| Ornamen budaya/etnik generik (batik, wayang, mandala) tempelan AI tanpa kaitan merek | Gunakan latar bersih atau grafis yang relevan; jangan menempelkan corak batik/etnik otomatis jika tidak diminta di brief. |
+| Tipografi gaya stiker kartun dengan *stroke* ganda tebal bertumpuk | Gunakan tipografi komersial/display yang tegas, bersih, dan kontras tinggi tanpa efek stiker kartun anak-anak. |
 
 Pola tersebut bukan larangan gaya mutlak. Permintaan eksplisit dan identitas merek boleh memakainya selama informasi tetap terbaca. Simetri, warna cerah, dan judul besar bukan otomatis desain buruk.
 
@@ -101,6 +118,15 @@ Jangan mencentang pemeriksaan yang belum dilakukan. Setelah menyerahkan gambar c
 
 ## Contoh permintaan
 
+### Contoh 1: Brief lengkap dengan tanggal dan promo
+
 > Buat banner cetak 3 × 1 meter untuk pembukaan toko roti. Nama: Roti Pagi. Tanggal: 12 Oktober 2026. Pesan: Diskon 20% semua roti. Warna merek: krem dan cokelat. Semua teks harus dibuat image generator.
 
 Tindakan yang diharapkan: langsung buat gambar banner horizontal dengan target rasio 3:1, palet krem dan cokelat, visual roti yang relevan, serta teks “Roti Pagi”, “12 Oktober 2026”, dan “Diskon 20% semua roti”. Jangan mengubah tanggal menjadi batas akhir diskon. Jangan menjawab hanya dengan prompt. Jangan mengklaim file siap cetak sebelum spesifikasinya diverifikasi.
+
+### Contoh 2: Brief singkat (nama dan ukuran)
+
+> buat spanduk 3x1 bubur ayam mang ujang
+
+Tindakan yang diharapkan: langsung buat banner horizontal rasio 3:1 pada kanvas desain datar murni (tanpa panah ukuran "3 m", tanpa tali, tanpa simulasi mata ayam). Teks HANYA “BUBUR AYAM MANG UJANG” dengan tipografi komersial tebal dan kontras tinggi tanpa efek stiker kartun. Dilarang mengarang slogan (“Dijamin Enak”), jam operasional, harga, kontak, atau menu tambahan. Visual berupa foto mangkuk bubur ayam asli dengan pencahayaan terang merata (*clean daylight/high-key*) dan latar bersih terisolasi, bukan suasana kafe remang ber-bokeh, tanpa asap uap berlebihan, dan tanpa ornamen batik tempelan.
+
