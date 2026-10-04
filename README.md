@@ -1,32 +1,24 @@
 # anti-spanduk-ai
 
-Skill untuk menghasilkan prompt image generator yang membuat spanduk cetak dan media sosial tanpa estetika generik AI.
+Instruksi siap pakai untuk membuat desain spanduk cetak dan banner media sosial tanpa estetika generik AI. Diunggah sebagai file instruksi ke ChatGPT atau Gemini, lalu langsung menghasilkan gambar dari brief singkat.
 
-## Tujuan
+## Cara pakai
 
-- Pesan spesifik, bukan slogan kosong
-- Hierarki informasi jelas
-- Ornamen punya fungsi, bukan dekorasi bawaan model
-- Teks terbaca dan akurat
-- Siap disesuaikan untuk cetak atau media sosial
+1. Unggah file `anti-spanduk-ai.md` ke ChatGPT atau Gemini.
+2. Tulis brief singkat. Contoh:
 
-## Instalasi
+   > Buat banner cetak 3 × 1 meter untuk pembukaan toko roti. Nama: Roti Pagi. Tanggal: 12 Oktober 2026. Pesan: Diskon 20% semua roti. Warna merek: krem dan cokelat.
 
-Salin folder `skill/anti-spanduk-ai` ke direktori skill agent Anda.
+3. Model akan menanyakan detail yang kurang (jika ada), lalu langsung menghasilkan gambar lengkap dengan teks.
+4. Periksa hasil dengan checklist yang disertakan model. Salah eja atau teks rusak? Minta perbaikan — instruksi sudah mengatur perbaikan bertahap.
 
-Contoh OpenCode:
+## Isi
 
-```bash
-cp -r skill/anti-spanduk-ai ~/.agents/skills/
-```
-
-## Penggunaan
-
-Minta agent membuat prompt untuk spanduk, banner, atau materi promosi. Sebutkan tujuan, ukuran, pesan utama, dan identitas visual. Skill akan menanyakan informasi yang kurang, lalu menyusun prompt beserta checklist verifikasi.
-
-Contoh:
-
-> Buat prompt banner cetak 3 × 1 meter untuk pembukaan toko roti. Nama: Roti Pagi. Tanggal: 12 Oktober 2026. Pesan: Diskon 20% semua roti. Warna merek: krem dan cokelat. Semua teks harus dibuat image generator.
+- Prinsip pesan spesifik dan hierarki jarak baca
+- 8 pola estetika AI generik yang dihindari, beserta penggantinya
+- Aturan teks yang dirender image generator
+- Perbedaan kebutuhan cetak dan media sosial
+- Checklist verifikasi hasil otomatis
 
 ## Sebelum & Sesudah
 
@@ -53,9 +45,9 @@ Image generator tidak menjamin teks benar atau file siap cetak. Hasil wajib dipe
 ## Struktur
 
 ```text
+anti-spanduk-ai.md   <- unggah ini ke ChatGPT/Gemini
+README.md
 assets/
   before.png
   after.png
-skill/anti-spanduk-ai/SKILL.md
 ```
-
