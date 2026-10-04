@@ -5,12 +5,15 @@ Instruksi siap pakai untuk membuat desain spanduk cetak dan banner media sosial 
 ## Cara pakai
 
 1. Unggah file `anti-spanduk-ai.md` ke ChatGPT atau Gemini.
-2. Tulis brief singkat. Contoh:
+2. Tulis brief singkat sambil menegaskan acuan pedoman. Contoh:
 
-   > Buat banner cetak 3 × 1 meter untuk pembukaan toko roti. Nama: Roti Pagi. Tanggal: 12 Oktober 2026. Pesan: Diskon 20% semua roti. Warna merek: krem dan cokelat.
+   > Buat sesuai pedoman anti-spanduk-ai.md: Banner cetak 3 × 1 meter untuk pembukaan toko roti. Nama: Roti Pagi. Tanggal: 12 Oktober 2026. Pesan: Diskon 20% semua roti. Warna merek: krem dan cokelat.
 
 3. Model akan menanyakan detail yang kurang (jika ada), lalu langsung menghasilkan gambar lengkap dengan teks.
 4. Periksa hasil dengan checklist yang disertakan model. Salah eja atau teks rusak? Minta perbaikan — instruksi sudah mengatur perbaikan bertahap.
+
+> [!TIP]
+> **Tips Sesi Chat:** Jika membuka percakapan baru atau membuat revisi lanjut, selalu tegaskan kembali kalimat: *"Buat/revisi sesuai pedoman anti-spanduk-ai.md"* agar AI tidak kembali ke gaya generik bawaan. Untuk ChatGPT Plus, Anda juga bisa memasukkan file ini ke dalam **Custom GPT** agar selalu aktif otomatis tanpa perlu diunggah ulang.
 
 ## Isi
 
