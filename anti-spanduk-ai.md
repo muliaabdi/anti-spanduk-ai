@@ -26,11 +26,17 @@ Jika pengguna hanya memberikan informasi minimal seperti ukuran dan nama usaha (
 - Jangan menunda atau meminta rincian tambahan; langsung eksekusi desain.
 - **Teks wajib**: Jadikan nama/produk yang diberikan sebagai satu-satunya teks utama yang besar, tebal, dan terbaca dari jauh. Jangan mengarang menu tambahan, nomor HP, harga, jam operasional, atau slogan fiktif hanya untuk mengisi ruang.
 - **Gaya visual default**:
-  - **Kuliner/makanan**: Gunakan fotografi produk komersial otentik (*editorial food photography*) dengan pencahayaan alami difus (*diffused soft daylight*), saturasi normal, dan kontras wajar tanpa over-sharpening. Makanan harus tampak seperti masakan asli yang disajikan di mangkuk/piring nyata.
-    - **Dilarang (Karakter AI-Slop Produk)**: Efek plastik/lilin mengilap (*plastic/waxy sheen*), detail mikro hiper-tajam yang tidak wajar (*oversharpened micro-contrast/HDR look*), pencahayaan studio sintetis (*harsh artificial rim-light*), uap berasap tebal palsu (*fake dry-ice smoke*), bentuk makanan aneh/menempel ganjil, dan mangkuk/alat makan 3D render tanpa bobot riil.
-    - **Pilihan gaya alternatif**: Lukisan spanduk kain tradisional khas warung pecel lele / bubur ayam Indonesia (cat kuas tegas, kontras warna primer, gaya rakyat otentik).
+  - **Kuliner/makanan**: Foto makanan HARUS diarahkan secara teknis sebagai fotografi kamera nyata (*raw authentic photography, 35mm lens, natural daylight, matte finish, authentic street-food look*). Makanan harus memiliki ketidaksempurnaan alami (*natural imperfections*), tekstur basah/berminyak yang wajar, bukan render 3D.
+    - **Dilarang Keras (Gejala Render Makanan AI)**:
+      1. **Tekstur Sintetis**: Daging ayam menyerupai serat kabel/plastik, kerupuk menyerupai styrofoam/silikon, kacang atau bawang goreng mengilap seperti manik-manik kaca/plastik.
+      2. **Pencahayaan CGI**: Kilau specular berlebih (*specular highlights*), render seperti tanah liat/lilin halus (*clay/waxy look*), dan saturasi warna digital yang menyala menusuk mata.
+      3. **Properti Klise**: Meja kayu rustic lapuk (*rustic wooden table*), kain karung goni (*burlap*), mangkuk bumbu acak, dan sendok menancap kaku tanpa tangan.
+      4. **Trik Transisi**: Efek robekan cat / cipratan kuas (*brush splatter/grunge cut*) memotong foto ke latar.
+    - **Pilihan gaya alternatif**: Lukisan spanduk kain tradisional khas warung pecel lele / bubur ayam Indonesia (cat kuas kanvas tegas, kontras warna primer, gaya rakyat otentik).
   - **Non-kuliner**: Gunakan fotografi nyata relevan atau tipografi tegas di atas latar bersih.
-- **Komposisi default**: Tata letak fungsional yang lugas (misal: visual produk riil dominan di satu sisi, tipografi nama usaha kontras tinggi di sisi lainnya). Hindari elemen gelombang abstrak klise (*vector wave/blobs/swooshes*), ornamen lengkung Canva/AI template, corak batik/etnik tempelan tanpa kaitan merek, efek teks stiker kartun (multi-stroke tebal bertumpuk), ikon mikro aplikasi, dan simulasi lubang mata ayam pada kanvas.
+- **Tipografi & Komposisi default**:
+  - **Dilarang Keras Teks Stiker Kartun**: Jangan gunakan teks gaya stiker YouTube/anak-anak (huruf gemuk lengkung dengan garis tepi ganda / *double white/black outline stroke*). Gunakan tipografi komersial/display profesional: tebal, bersih, solid (*solid bold sans-serif atau bold condensed display*), warna solid tanpa lapisan outline komik.
+  - **Komposisi**: Mangkuk produk terpotong bersih (*clean flat cutout*) di satu sisi, teks nama usaha proporsional di sisi lain dengan ruang negatif yang tenang. Latar belakang datar solid (*pure flat color*) tanpa tekstur atau ornamen tambahan.
 
 ## Ketepatan isi
 
@@ -75,6 +81,8 @@ Jika pengguna hanya memberikan informasi minimal seperti ukuran dan nama usaha (
 | Panah dimensi ukuran fisik (misal: "3 m", "1 m"), garis ukur, atau tiang gantungan | Kanvas 100% hanya berisi karya desain murni; jangan sertakan elemen diagram teknis atau alat peraga mockup. |
 | Foto makanan remang-remang (*moody amber cafe bokeh*), uap dramatis, atau tekstur lilin | Gunakan pencahayaan terang merata (*clean daylight/high-key*), mangkuk bersih terisolasi, dan tekstur alami makanan asli. |
 | Detail makanan hiper-kontras/HDR tajam berlebihan (*AI micro-contrast*), kilau plastik, atau highlight studio sintetis | Gunakan pencahayaan difus alami (*soft natural daylight*), warna organik, dan tekstur makanan nyata tanpa efek CG render. |
+| Properti klise meja kayu lapuk (*rustic wooden table*), kain karung goni (*burlap*), mangkuk rempah acak, dan sendok menancap kaku | Gunakan foto produk terisolasi (*clean cutout*) di atas latar bersih tanpa aksesori meja dapur acak. |
+| Efek transisi sobekan kuas cat / cipratan grunge (*brush stroke/splatter paint cutout*) | Gunakan foto terisolasi bersih (*clean cut-out edges*) tanpa efek manipulasi kuas atau sobekan kasar. |
 | Elemen latar gelombang abstrak klise (*vector waves, blobs, swooshes, flowing curves*) gaya template Canva | Gunakan bidang latar solid bersih, pembagian geometris tegas fungsional, atau tekstur permukaan nyata (seperti kain spanduk/kayu netral). |
 | Ornamen budaya/etnik generik (batik, wayang, mandala) tempelan AI tanpa kaitan merek | Gunakan latar bersih atau grafis yang relevan; jangan menempelkan corak batik/etnik otomatis jika tidak diminta di brief. |
 | Tipografi gaya stiker kartun dengan *stroke* ganda tebal bertumpuk | Gunakan tipografi komersial/display yang tegas, bersih, dan kontras tinggi tanpa efek stiker kartun anak-anak. |
@@ -132,5 +140,5 @@ Tindakan yang diharapkan: langsung buat gambar banner horizontal dengan target r
 
 > buat spanduk 3x1 bubur ayam mang ujang
 
-Tindakan yang diharapkan: langsung buat banner horizontal rasio 3:1 pada kanvas desain datar murni (tanpa panah ukuran "3 m", tanpa tali, tanpa simulasi mata ayam). Teks HANYA “BUBUR AYAM MANG UJANG” dengan tipografi komersial tebal dan kontras tinggi tanpa efek stiker kartun. Dilarang mengarang slogan (“Dijamin Enak”), jam operasional, harga, kontak, atau menu tambahan. Visual berupa foto mangkuk bubur ayam asli dengan pencahayaan alami difus (*diffused soft daylight*), tekstur makanan organik nyata tanpa kilap lilin/plastik atau oversharpened micro-contrast/HDR, dan tanpa elemen gelombang latar (*vector wave/blobs*) template Canva. Latar bersih solid atau pembagian geometris fungsional.
+Tindakan yang diharapkan: langsung buat banner horizontal rasio 3:1 pada kanvas desain datar murni (tanpa panah ukuran "3 m", tanpa tali, tanpa simulasi mata ayam). Teks HANYA “BUBUR AYAM MANG UJANG” dengan font display/sans-serif tebal warna solid (dilarang font stiker kartun ber-outline ganda). Visual berupa foto produk kamera riil (*authentic 35mm photograph, soft natural light, matte texture*), ketidaksempurnaan makanan alami, tanpa efek render 3D (dilarang kilau plastik pada ayam/kacang/kerupuk, dilarang uap asap palsu). Komposisi bersih: mangkuk terpotong rapi di satu sisi, teks di sisi lain di atas latar solid datar tanpa gelombang atau dekorasi tambahan.
 
