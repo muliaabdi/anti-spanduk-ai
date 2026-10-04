@@ -26,9 +26,11 @@ Jika pengguna hanya memberikan informasi minimal seperti ukuran dan nama usaha (
 - Jangan menunda atau meminta rincian tambahan; langsung eksekusi desain.
 - **Teks wajib**: Jadikan nama/produk yang diberikan sebagai satu-satunya teks utama yang besar, tebal, dan terbaca dari jauh. Jangan mengarang menu tambahan, nomor HP, harga, jam operasional, atau slogan fiktif hanya untuk mengisi ruang.
 - **Gaya visual default**:
-  - **Kuliner/makanan**: Gunakan fotografi produk riil dengan pencahayaan terang merata (*clean high-key / bright daylight*), tampilan tekstur makanan nyata dan segar, serta isolasi mangkuk/piring yang bersih (*clean cut-out*), ATAU gaya lukisan spanduk kain tradisional warung kaki lima. **Dilarang**: suasana kafe/kedai remang-remang ber-bokeh kuning, uap berasap tebal dramatis (*fake dry-ice steam*), tekstur makanan mengilap seperti plastik/lilin (*plastic sheen*), sendok melayang tanpa tangan, ornamen gerabah/alat masak acak di latar, dan ilustrasi kartun/vektor flat.
+  - **Kuliner/makanan**: Gunakan fotografi produk komersial otentik (*editorial food photography*) dengan pencahayaan alami difus (*diffused soft daylight*), saturasi normal, dan kontras wajar tanpa over-sharpening. Makanan harus tampak seperti masakan asli yang disajikan di mangkuk/piring nyata.
+    - **Dilarang (Karakter AI-Slop Produk)**: Efek plastik/lilin mengilap (*plastic/waxy sheen*), detail mikro hiper-tajam yang tidak wajar (*oversharpened micro-contrast/HDR look*), pencahayaan studio sintetis (*harsh artificial rim-light*), uap berasap tebal palsu (*fake dry-ice smoke*), bentuk makanan aneh/menempel ganjil, dan mangkuk/alat makan 3D render tanpa bobot riil.
+    - **Pilihan gaya alternatif**: Lukisan spanduk kain tradisional khas warung pecel lele / bubur ayam Indonesia (cat kuas tegas, kontras warna primer, gaya rakyat otentik).
   - **Non-kuliner**: Gunakan fotografi nyata relevan atau tipografi tegas di atas latar bersih.
-- **Komposisi default**: Tata letak fungsional yang lugas (misal: visual produk riil dominan di satu sisi, tipografi nama usaha kontras tinggi di sisi lainnya). Hindari ornamen lengkung generik (*blobs*), corak batik/etnik tempelan tanpa kaitan merek, efek teks stiker kartun (multi-stroke tebal bertumpuk), ikon mikro aplikasi, dan simulasi lubang mata ayam pada kanvas.
+- **Komposisi default**: Tata letak fungsional yang lugas (misal: visual produk riil dominan di satu sisi, tipografi nama usaha kontras tinggi di sisi lainnya). Hindari elemen gelombang abstrak klise (*vector wave/blobs/swooshes*), ornamen lengkung Canva/AI template, corak batik/etnik tempelan tanpa kaitan merek, efek teks stiker kartun (multi-stroke tebal bertumpuk), ikon mikro aplikasi, dan simulasi lubang mata ayam pada kanvas.
 
 ## Ketepatan isi
 
@@ -72,6 +74,8 @@ Jika pengguna hanya memberikan informasi minimal seperti ukuran dan nama usaha (
 | Simulasi mata ayam (grommet), ring gantungan, tali tambang, atau jahitan pada gambar | Buat desain datar bersih tanpa simulasi perangkat keras fisik; mata ayam dan tali dipasang manual saat cetak. |
 | Panah dimensi ukuran fisik (misal: "3 m", "1 m"), garis ukur, atau tiang gantungan | Kanvas 100% hanya berisi karya desain murni; jangan sertakan elemen diagram teknis atau alat peraga mockup. |
 | Foto makanan remang-remang (*moody amber cafe bokeh*), uap dramatis, atau tekstur lilin | Gunakan pencahayaan terang merata (*clean daylight/high-key*), mangkuk bersih terisolasi, dan tekstur alami makanan asli. |
+| Detail makanan hiper-kontras/HDR tajam berlebihan (*AI micro-contrast*), kilau plastik, atau highlight studio sintetis | Gunakan pencahayaan difus alami (*soft natural daylight*), warna organik, dan tekstur makanan nyata tanpa efek CG render. |
+| Elemen latar gelombang abstrak klise (*vector waves, blobs, swooshes, flowing curves*) gaya template Canva | Gunakan bidang latar solid bersih, pembagian geometris tegas fungsional, atau tekstur permukaan nyata (seperti kain spanduk/kayu netral). |
 | Ornamen budaya/etnik generik (batik, wayang, mandala) tempelan AI tanpa kaitan merek | Gunakan latar bersih atau grafis yang relevan; jangan menempelkan corak batik/etnik otomatis jika tidak diminta di brief. |
 | Tipografi gaya stiker kartun dengan *stroke* ganda tebal bertumpuk | Gunakan tipografi komersial/display yang tegas, bersih, dan kontras tinggi tanpa efek stiker kartun anak-anak. |
 
@@ -128,5 +132,5 @@ Tindakan yang diharapkan: langsung buat gambar banner horizontal dengan target r
 
 > buat spanduk 3x1 bubur ayam mang ujang
 
-Tindakan yang diharapkan: langsung buat banner horizontal rasio 3:1 pada kanvas desain datar murni (tanpa panah ukuran "3 m", tanpa tali, tanpa simulasi mata ayam). Teks HANYA “BUBUR AYAM MANG UJANG” dengan tipografi komersial tebal dan kontras tinggi tanpa efek stiker kartun. Dilarang mengarang slogan (“Dijamin Enak”), jam operasional, harga, kontak, atau menu tambahan. Visual berupa foto mangkuk bubur ayam asli dengan pencahayaan terang merata (*clean daylight/high-key*) dan latar bersih terisolasi, bukan suasana kafe remang ber-bokeh, tanpa asap uap berlebihan, dan tanpa ornamen batik tempelan.
+Tindakan yang diharapkan: langsung buat banner horizontal rasio 3:1 pada kanvas desain datar murni (tanpa panah ukuran "3 m", tanpa tali, tanpa simulasi mata ayam). Teks HANYA “BUBUR AYAM MANG UJANG” dengan tipografi komersial tebal dan kontras tinggi tanpa efek stiker kartun. Dilarang mengarang slogan (“Dijamin Enak”), jam operasional, harga, kontak, atau menu tambahan. Visual berupa foto mangkuk bubur ayam asli dengan pencahayaan alami difus (*diffused soft daylight*), tekstur makanan organik nyata tanpa kilap lilin/plastik atau oversharpened micro-contrast/HDR, dan tanpa elemen gelombang latar (*vector wave/blobs*) template Canva. Latar bersih solid atau pembagian geometris fungsional.
 

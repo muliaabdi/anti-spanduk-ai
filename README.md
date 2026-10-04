@@ -18,7 +18,7 @@ Instruksi siap pakai untuk membuat desain spanduk cetak dan banner media sosial 
 ## Isi
 
 - Prinsip pesan spesifik dan hierarki jarak baca
-- 15 pola estetika AI generik yang dihindari, beserta penggantinya
+- 17 pola estetika AI generik yang dihindari, beserta penggantinya
 - Aturan teks yang dirender image generator
 - Perbedaan kebutuhan cetak dan media sosial
 - Checklist verifikasi hasil otomatis
