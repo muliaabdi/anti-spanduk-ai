@@ -28,6 +28,24 @@ Contoh:
 
 > Buat prompt banner cetak 3 × 1 meter untuk pembukaan toko roti. Nama: Roti Pagi. Tanggal: 12 Oktober 2026. Pesan: Diskon 20% semua roti. Warna merek: krem dan cokelat. Semua teks harus dibuat image generator.
 
+## Sebelum & Sesudah
+
+### Sebelum (Prompt Biasa / Estetika AI Generik)
+
+![Sebelum](assets/before.png)
+
+- Terlalu ramai dengan ornamen dekoratif dan bingkai klise
+- Hierarki teks hilang dan bertumpuk
+- Sulit dibaca dari kejauhan
+
+### Sesudah (Dengan anti-spanduk-ai)
+
+![Sesudah](assets/after.png)
+
+- Tipografi tebal, kontras kuat, dan langsung terbaca
+- Hierarki jelas: penawaran utama dan tanggal langsung terlihat
+- Visual produk nyata dengan ruang negatif yang lega
+
 ## Batasan
 
 Image generator tidak menjamin teks benar atau file siap cetak. Hasil wajib diperiksa untuk ejaan, resolusi aktual, bleed, dan profil warna sebelum masuk percetakan.
@@ -35,5 +53,9 @@ Image generator tidak menjamin teks benar atau file siap cetak. Hasil wajib dipe
 ## Struktur
 
 ```text
+assets/
+  before.png
+  after.png
 skill/anti-spanduk-ai/SKILL.md
 ```
+
