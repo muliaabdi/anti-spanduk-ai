@@ -1,27 +1,59 @@
 # anti-spanduk-ai
 
-Instruksi siap pakai untuk membuat desain spanduk cetak dan banner media sosial tanpa estetika generik AI. Diunggah sebagai file instruksi ke ChatGPT atau Gemini, lalu langsung menghasilkan gambar dari brief singkat.
+Instruksi siap pakai dan skill untuk **membuat** serta **mengaudit (critique)** desain spanduk cetak dan banner media sosial tanpa estetika generik AI. Terinspirasi oleh metodologi kritik desain senior [Superfuture/design-review](https://github.com/Superfuture/design-review).
 
-## Cara pakai
+Dapat diunggah langsung ke **ChatGPT / Gemini**, atau dipasang sebagai skill di **Claude Code / Antigravity IDE**.
 
-1. Unggah file `anti-spanduk-ai.md` ke ChatGPT atau Gemini.
-2. Tulis brief singkat sambil menegaskan acuan pedoman. Contoh:
+---
 
-   > Buat sesuai pedoman anti-spanduk-ai.md: Banner cetak 3 × 1 meter untuk pembukaan toko roti. Nama: Roti Pagi. Tanggal: 12 Oktober 2026. Pesan: Diskon 20% semua roti. Warna merek: krem dan cokelat.
+## 2 Mode Operasi
 
-3. Model akan menanyakan detail yang kurang (jika ada), lalu langsung menghasilkan gambar lengkap dengan teks.
-4. Periksa hasil dengan checklist yang disertakan model. Salah eja atau teks rusak? Minta perbaikan — instruksi sudah mengatur perbaikan bertahap.
+1. **Mode Desain (Generasi Baru)**: AI langsung menghasilkan artwork lengkap dengan teks di atas kanvas datar murni (100% flat artwork) dari brief singkat, bebas dari render plastik 3D dan ornamen klise AI.
+2. **Mode Review / Kritik (Design Critique)**: AI membedah gambar atau screenshot spanduk yang Anda unggah menggunakan **Rubrik 10 Dimensi Spanduk**, memberikan temuan berperingkat (**🔴 Blocking → 🟠 Important → 🟡 Polish**), kelebihan (**Strengths**), satu perubahan paling krusial (**Highest-Leverage Change**), dan prompt revisi siap pakai.
 
-> [!TIP]
-> **Tips Sesi Chat:** Jika membuka percakapan baru atau membuat revisi lanjut, selalu tegaskan kembali kalimat: *"Buat/revisi sesuai pedoman anti-spanduk-ai.md"* agar AI tidak kembali ke gaya generik bawaan. Untuk ChatGPT Plus, Anda juga bisa memasukkan file ini ke dalam **Custom GPT** agar selalu aktif otomatis tanpa perlu diunggah ulang.
+---
 
-## Isi
+## Cara Pakai
 
-- Prinsip pesan spesifik dan hierarki jarak baca
-- 19 pola estetika AI generik yang dihindari, beserta penggantinya
-- Aturan teks yang dirender image generator
-- Perbedaan kebutuhan cetak dan media sosial
-- Checklist verifikasi hasil otomatis
+### Opsi A: Di ChatGPT / Gemini Web
+1. Unggah file `anti-spanduk-ai.md` (atau pasang di **Custom GPT**).
+2. **Untuk membuat desain:** Berikan brief singkat:
+   > Buat sesuai anti-spanduk-ai.md: Banner cetak 3 × 1 meter untuk pembukaan toko roti. Nama: Roti Pagi. Tanggal: 12 Oktober 2026. Pesan: Diskon 20% semua roti. Warna: krem dan cokelat.
+3. **Untuk membedah / me-review desain:** Unggah gambar/screenshot spanduk Anda:
+   > Review spanduk ini sesuai anti-spanduk-ai.md. Apa yang kurang sebelum dicetak?
+
+### Opsi B: Sebagai Skill (Claude Code / Antigravity IDE)
+Salin folder `skills/anti-spanduk-ai` ke direktori skill agent Anda:
+```bash
+# Untuk Claude Code
+cp -r skills/anti-spanduk-ai ~/.claude/skills/anti-spanduk-ai
+
+# Untuk Antigravity IDE (.agents/skills)
+mkdir -p .agents/skills && cp -r skills/anti-spanduk-ai .agents/skills/
+```
+
+---
+
+## Format Laporan Kritik (Design Critique)
+
+Saat mengaudit gambar spanduk, temuan disajikan berperingkat:
+- 🔴 **Blocking** — Kesalahan fatal: salah eja nama/angka, render makanan 3D sintetis/plastik, teks menabrak batas potong/keliman cetak, panah ukuran "3 m" tergambar di kanvas.
+- 🟠 **Important** — Merusak hierarki & estetika: font stiker kartun ber-outline ganda, ornamen gelombang canva klise, warna tidak harmonis, ketiadaan titik fokus.
+- 🟡 **Polish** — Penyempurnaan mikro: kerning huruf, margin visual mikro, penyelarasan tepi.
+- **Strengths** — 2–3 poin elemen yang sudah berhasil dieksekusi dengan baik.
+- **Highest-Leverage Change** — 1 perubahan tunggal paling berdampak yang harus diperbaiki duluan.
+- **Prompt Revisi Siap Pakai** — Prompt generasi ulang gambar yang presisi jika ingin memperbaiki langsung.
+
+---
+
+## Isi & Standar Craft
+
+- **10 Dimensi Rubrik Spanduk**: Hierarki Visual, Tipografi, Ruang Negatif, Warna & Kontras, Otentisitas Foto Produk, Higienitas Anti-Slop, Ketepatan Konten, Kebutuhan Teknis Cetak, Kebutuhan Media Sosial, dan Karakter Merek.
+- **19 Pola AI Generik yang Dilarang**: Dari render makanan CGI lilin/plastik hingga font outline stiker kartun.
+- **Aturan Cetak Fisik Murni**: Kanvas 100% artwork datar tanpa panah dimensi ("3 m"), tali tambang, atau ring paku mata ayam tiruan.
+- **Self-Critique Otomatis**: Audit berjenjang sebelum gambar diserahkan.
+
+---
 
 ## Sebelum & Sesudah
 
@@ -41,16 +73,25 @@ Instruksi siap pakai untuk membuat desain spanduk cetak dan banner media sosial 
 - Hierarki jelas: penawaran utama dan tanggal langsung terlihat
 - Visual produk nyata dengan ruang negatif yang lega
 
+---
+
 ## Batasan
 
 Image generator tidak menjamin teks benar atau file siap cetak. Hasil wajib diperiksa untuk ejaan, resolusi aktual, bleed, dan profil warna sebelum masuk percetakan.
 
-## Struktur
+---
+
+## Struktur Repositori
 
 ```text
-anti-spanduk-ai.md   <- unggah ini ke ChatGPT/Gemini
-README.md
-assets/
-  before.png
-  after.png
+anti-spanduk-ai/
+├── anti-spanduk-ai.md        <- Panduan utama (unggah ke ChatGPT/Gemini / Custom GPT)
+├── README.md
+├── assets/
+│   ├── before.png
+│   └── after.png
+└── skills/
+    └── anti-spanduk-ai/
+        ├── SKILL.md          <- Agent skill (Claude Code / Antigravity)
+        └── checklist.md      <- 10 dimensi rubrik craft spanduk & banner
 ```
