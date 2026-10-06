@@ -63,9 +63,11 @@ Jika pengguna hanya memberikan informasi minimal seperti ukuran dan nama usaha (
   3. Latar belakang datar polos satu warna.
 
 #### 3. Wajib Rumus Prompt Anti-Slop (Internal Prompt Formula)
-Saat menyusun instruksi untuk image generator, model **WAJIB** menyusun deskripsi visual sebagai **"Modern Swiss Typography Billboard / High-End Commercial Signboard"**, BUKAN *"Indonesian street food promo banner"* (karena frasa street food banner memicu DALL-E/Imagen menggambar kartun stiker dan sketsa klise):
+Saat menyusun instruksi untuk image generator, model **DILARANG KERAS** menggunakan kata sifat klise AI seperti *"vibrant"*, *"playful"*, *"festive"*, *"delicious"*, *"tropical"*, *"rustic"*, *"fresh"*, *"eye-catching"*, karena kata-kata ini otomatis memicu generator difusi menghasilkan font kartun stiker, warna permen menyala, dan properti klise.
 
-- **Tipografi**: *"Ultra-bold condensed geometric grotesque sans-serif uppercase typography, flat 2D solid commercial lettering in pure solid white (or deep solid dark), zero outline, zero stroke, zero drop shadow, zero comic brush script, zero ribbons."*
+Model **WAJIB** menyusun deskripsi visual sebagai **"Modern Swiss Typography Billboard / High-End Commercial Signboard"**:
+
+- **Tipografi**: *"Ultra-bold condensed geometric grotesque sans-serif uppercase typography, flat 2D solid commercial lettering in pure solid white (or deep solid dark), zero outline, zero stroke, zero drop shadow, zero comic brush script, zero ribbons, zero splash droplets, single uniform color only."*
 - **Visual Produk**: Gunakan panduan teknis natural di bawah.
 - **Latar & Komposisi**: *"100% pure flat solid background color, split 60% massive bold typography on the left and 40% clean authentic product photography on the right. Strictly zero illustrations, zero sketches of roosters or rice stalks, zero cartoon bowls, zero paint brush strokes, zero vector swooshes."*
 
@@ -75,7 +77,7 @@ Untuk menghasilkan foto produk yang tampak seperti kamera nyata, bukan render 3D
 
 ##### A. Optik & Pencahayaan Kamera Nyata
 - **Lensa & Sudut**: Gunakan setelan *"shot on 50mm f/4 lens at 45-degree natural seated eye-level"*. Hindari makro ekstrem dan hindari bokeh buram berlebihan (*depth of field* harus cukup dalam agar seluruh porsi makanan fokus tajam).
-- **Pencahayaan**: *"Soft natural window daylight coming from one side, diffused organic soft shadows, matte natural highlights"*. Dilarang keras lampu sorot studio tajam, dilarang pencahayaan temaram kafe (*moody amber rim lighting*), dan dilarang kilau plastik menyilaukan (*no glossy specular highlights*).
+- **Pencahayaan & Warna (Anti-Neon/Vivid)**: *"Soft natural window daylight, diffused organic soft shadows, realistic matte finish, Kodak Portra natural documentary color tone, muted authentic organic saturation"*. Dilarang keras saturasi permen menyala (*hyper-saturated neon colors*), dilarang lampu sorot studio tajam, dilarang pencahayaan temaram kafe (*moody amber rim lighting*), dan dilarang kilau plastik menyilaukan (*no glossy specular highlights*).
 
 ##### B. Karakter Makanan Natural (Food Authenticity)
 - **Ketidaksempurnaan Alami (*Real Imperfections*)**:
@@ -84,15 +86,17 @@ Untuk menghasilkan foto produk yang tampak seperti kamera nyata, bukan render 3D
   - **Kuah & Minyak**: Permukaan kuah memiliki tegangan permukaan minyak alami (*natural broth surface with subtle chili oil droplets*), bukan cairan gel kental homogen yang mengilap seperti lilin. Sedikit percikan bumbu alami di tepi mangkuk.
 - **Wadah Nyata**: Mangkok ayam jago keramik lokal asli, piring melamin warung bersih, atau mangkuk porselen putih polos. Sendok bebek keramik atau sendok stainless steel warung asli (tanpa hiasan sendok kayu rustic).
 
-##### C. Karakter Minuman Natural (Beverage Authenticity)
-- **Gelas & Wadah**: Gelas kaca belimbing tebal khas warung kopi Indonesia (*traditional faceted ribbed tumbler glass*) atau gelas kaca silinder polos bening. Sedotan plastik lurus sederhana (kuning/putih).
-- **Kondensasi Embun Dingin Nyata**: Permukaan luar gelas memiliki embun dingin nyata dengan tetesan air mengalir turun (*sweating ice condensation with genuine water droplets running down the glass*), bukan kaca kering artifisial.
-- **Es Batu Riil**: Pecahan es batu balok kasar tak beraturan (*crushed irregular ice blocks from ice pick*), sebagian es mencair alami di permukaan, BUKAN kubus es akrilik kristal simetris sempurna ala bar koktail mewah.
-- **Warna & Seduhan Asli**:
+##### C. Karakter Minuman Natural & Larangan Gimmick Aksi (Beverage Authenticity)
+- **DILARANG GIMMICK AKSI MELAYANG (*STRICTLY NO FLOATING SPOONS / POURING*)**: Dilarang keras menampilkan sendok kayu melayang menuangkan gula/sirup (*no floating spoons pouring liquid*), dilarang cairan memercik melayang (*no splash action effects*). Foto minuman **WAJIB berupa benda diam statis (*static still-life photography*)**.
+- **Gelas & Wadah**: Mangkuk kaca bening polos / gelas kaca belimbing tebal khas warung kopi Indonesia (*traditional faceted ribbed tumbler glass*) atau gelas kaca silinder polos bening. Tanpa tatakan kayu, tanpa taburan daun pandan acak di atas meja kayu rustic lapuk.
+- **Warna Alami Produk (Bukan Neon Hijau Radioaktif)**:
+  - **Cendol**: Warna hijau daun suji/pandan organik alami yang agak gelap/teduh (*natural muted earthy pandan green*), BUKAN hijau neon terang menyala seperti jeli plastik. Lapisan santan putih dan gula merah cair memisah alami (*natural liquid settling at the bottom*).
   - **Es Teh**: Warna seduhan teh melati lokal cokelat kemerahan pekat alami, sedikit endapan manis di bawah.
   - **Es Kopi Susu**: Gradasi lelehan kopi dan kental manis yang memisah alami (*natural gradient separation of espresso and condensed milk*).
   - **Jus Buah**: Tekstur bulir dan serat buah nyata, lapisan buih blender alami di permukaan (*natural fruit pulp and blender froth*), bukan sirup warna neon seragam.
-  - **Dilarang Garnish Klise**: Dilarang irisan lemon melayang simetris di tengah, dilarang daun mint raksasa menyala neon yang tidak relevan.
+- **Kondensasi Embun Dingin Nyata**: Permukaan luar gelas memiliki embun dingin nyata dengan tetesan air mengalir turun (*sweating ice condensation with genuine water droplets running down the glass*), bukan kaca kering artifisial.
+- **Es Batu Riil**: Pecahan es batu balok kasar tak beraturan (*crushed irregular ice blocks from ice pick*), sebagian es mencair alami di permukaan, BUKAN kubus es akrilik kristal simetris sempurna ala bar koktail mewah.
+- **Dilarang Garnish Klise**: Dilarang irisan lemon melayang simetris di tengah, dilarang daun mint raksasa menyala neon yang tidak relevan.
 
 ## Ketepatan isi
 

@@ -29,15 +29,17 @@ Gunakan dimensi ini untuk mengkritik desain spanduk fisik dan banner media sosia
 - **Larangan Gradien AI Generik**: Bebas dari gradien biru-ungu, magenta neon, atau oranye-biru klise AI yang tidak relevan dengan produk.
 
 ## 5. Otentisitas Foto Produk & Visual (Makanan & Minuman)
-- **Fotografi Riil vs Render 3D CGI**: Produk fisik wajib berupa fotografi kamera riil (*50mm/35mm lens, natural soft window daylight, matte finish, 45-degree angle*).
+- **Fotografi Riil vs Render 3D CGI**: Produk fisik wajib berupa fotografi kamera riil (*50mm/35mm lens, natural soft window daylight, matte finish, 45-degree angle, Kodak Portra muted realistic tones*).
+- **Larangan Gimmick Aksi Melayang**: Dilarang keras menampilkan sendok kayu melayang menuangkan sirup/gula (*no floating pouring spoons*), dilarang cairan memercik melayang (*no splash action*). Foto wajib benda diam statis (*static still life*).
 - **Ketidaksempurnaan Alami (*Real Imperfections*)**:
   - Kerupuk berpori gelembung gorengan minyak asli (bukan busa styrofoam licin).
   - Serat daging asli dan daun bawang dengan potongan tidak simetris (alami).
   - Kuah dengan tegangan permukaan minyak alami (*subtle oil separation*), bukan cairan gel lilin.
 - **Minuman Natural (*Real Beverage*)**:
+  - Warna alami terdesaturasi: Cendol warna hijau pandan teduh/gelap (BUKAN hijau neon radioaktif), seduhan teh cokelat kemerahan alami.
   - Gelas kaca belimbing warung / gelas silinder bening dengan embun dingin nyata (*sweating cold condensation with dripping water droplets*).
   - Es batu pecahan balok kasar tak beraturan (*crushed irregular ice blocks*), sebagian mencair alami, BUKAN kubus es akrilik bar koktail.
-  - Warna seduhan teh/kopi/jus organik alami; tanpa daun mint raksasa neon atau irisan lemon melayang klise.
+  - Tanpa daun mint raksasa neon atau irisan lemon melayang klise.
 - **Wadah Otentik**: Mangkok ayam jago lokal, piring melamin warung polos, sendok stainless steel warung asli.
 - **Bebas Properti Klise**: Tanpa talenan kayu bundar (*round wooden board/coaster*), serbet kotak-kotak (*checkered napkin*), meja kayu lapuk rustic, daun pisang tempelan, karung goni (*burlap*), atau uap asap digital transparan (*fake CGI steam*).
 
