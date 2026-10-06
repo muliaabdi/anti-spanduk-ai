@@ -28,14 +28,18 @@ Gunakan dimensi ini untuk mengkritik desain spanduk fisik dan banner media sosia
 - **Palet Warna Terkendali**: Menggunakan 2–3 warna dominan dari identitas merek, bukan spektrum pelangi tanpa arah.
 - **Larangan Gradien AI Generik**: Bebas dari gradien biru-ungu, magenta neon, atau oranye-biru klise AI yang tidak relevan dengan produk.
 
-## 5. Otentisitas Foto Produk & Visual
-- **Fotografi Riil vs Render 3D CGI**: Produk fisik (terutama makanan/kuliner) wajib berupa fotografi riil (*authentic 35mm photograph, natural daylight, matte finish, authentic street-food look*).
-- **Larangan Gejala Render AI Makanan**:
-  - Bebas tekstur sintetis: serat ayam suwir kawat, kerupuk styrofoam/silikon licin (kerupuk wajib memiliki pori-pori gelembung gorengan asli), bawang/kacang manik-manik plastik.
-  - Bebas pencahayaan CGI/lilin/tanah liat (*waxy/clay render*) dan kilau plastik menusuk mata.
-  - Bebas uap asap palsu transparan (*fake CGI steam/smoke*) atau highlight HDR hiper-kontras.
-- **Isolasi Produk Bersih**: Potongan produk bersih (*clean cutout*), bebas transisi robekan kuas/cipratan cat (*brush splatter grunge*).
-- **Bebas Properti Klise**: Tanpa talenan kayu bundar (*round wooden board/coaster*), serbet kotak-kotak (*checkered napkin*), meja kayu lapuk rustic, karung goni (*burlap*), mangkuk bumbu acak, atau sendok menancap kaku tanpa tangan.
+## 5. Otentisitas Foto Produk & Visual (Makanan & Minuman)
+- **Fotografi Riil vs Render 3D CGI**: Produk fisik wajib berupa fotografi kamera riil (*50mm/35mm lens, natural soft window daylight, matte finish, 45-degree angle*).
+- **Ketidaksempurnaan Alami (*Real Imperfections*)**:
+  - Kerupuk berpori gelembung gorengan minyak asli (bukan busa styrofoam licin).
+  - Serat daging asli dan daun bawang dengan potongan tidak simetris (alami).
+  - Kuah dengan tegangan permukaan minyak alami (*subtle oil separation*), bukan cairan gel lilin.
+- **Minuman Natural (*Real Beverage*)**:
+  - Gelas kaca belimbing warung / gelas silinder bening dengan embun dingin nyata (*sweating cold condensation with dripping water droplets*).
+  - Es batu pecahan balok kasar tak beraturan (*crushed irregular ice blocks*), sebagian mencair alami, BUKAN kubus es akrilik bar koktail.
+  - Warna seduhan teh/kopi/jus organik alami; tanpa daun mint raksasa neon atau irisan lemon melayang klise.
+- **Wadah Otentik**: Mangkok ayam jago lokal, piring melamin warung polos, sendok stainless steel warung asli.
+- **Bebas Properti Klise**: Tanpa talenan kayu bundar (*round wooden board/coaster*), serbet kotak-kotak (*checkered napkin*), meja kayu lapuk rustic, daun pisang tempelan, karung goni (*burlap*), atau uap asap digital transparan (*fake CGI steam*).
 
 ## 6. Higienitas Anti-Slop (Bebas Pola AI Klise)
 - **Latar Belakang**: Latar solid murni, tekstur kain spanduk/permukaan nyata, atau pembagian blok geometris tegas; BUKAN sapuan kuas cat (*grunge brush stroke stripe*) memotong bidang, BUKAN gelombang vektor abstrak Canva (*vector waves, blobs, floating swooshes*).
