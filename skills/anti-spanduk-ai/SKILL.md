@@ -67,6 +67,7 @@ Kelompokkan temuan berdasarkan tingkat keparahan. **Fokus pada masalah nyata yan
 Jika menjalankan pembuatan gambar baru:
 1. Hasilkan desain datar yang memenuhi kanvas (100% pure flat artwork).
 2. Dilarang menyertakan mockup ruangan, panah ukuran dimensi ("3 m"), tali tambang, atau ring paku mata ayam.
-3. Gunakan tipografi komersial tebal tanpa outline ganda kartun.
-4. Gunakan fotografi produk nyata beralas natural atau latar solid datar.
-5. Jalankan self-critique internal terhadap kriteria 🔴 Blocking sebelum menyerahkan gambar ke pengguna.
+3. **Tipografi Wajib**: *Commercial heavy grotesque sans-serif* atau *condensed block uppercase* satu warna solid. Dilarang font brush komik, dilarang outline putih stiker ganda, dilarang cipratan tetesan komik, dilarang memecah judul menjadi dua warna bertabrakan.
+4. **Foto Makanan Wajib**: *Authentic 35mm DSLR photography, natural daylight, matte finish*. Dilarang talenan kayu bundar, dilarang serbet kotak-kotak, dilarang uap asap CGI palsu, dilarang kerupuk styrofoam licin tanpa pori.
+5. **Latar Belakang Wajib**: Warna datar solid murni atau pembagian blok warna bersih. Dilarang garis sapuan kuas cat memotong kanvas, dilarang gelombang vektor Canva.
+6. Jalankan self-critique internal terhadap kriteria 🔴 Blocking sebelum menyerahkan gambar ke pengguna.

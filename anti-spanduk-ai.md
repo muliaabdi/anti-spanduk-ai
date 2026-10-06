@@ -49,19 +49,25 @@ Gunakan alur ini saat pengguna mengunggah gambar/screenshot spanduk atau meminta
 
 Jika pengguna hanya memberikan informasi minimal seperti ukuran dan nama usaha (misal: *"buat spanduk 3x1 bubur ayam mang ujang"*):
 - Jangan menunda atau meminta rincian tambahan; langsung eksekusi desain.
-- **Teks wajib**: Jadikan nama/produk yang diberikan sebagai satu-satunya teks utama yang besar, tebal, dan terbaca dari jauh. Jangan mengarang menu tambahan, nomor HP, harga, jam operasional, atau slogan fiktif hanya untuk mengisi ruang.
-- **Gaya visual default**:
-  - **Kuliner/makanan**: Foto makanan HARUS diarahkan secara teknis sebagai fotografi kamera nyata (*raw authentic photography, 35mm lens, natural daylight, matte finish, authentic street-food look*). Makanan harus memiliki ketidaksempurnaan alami (*natural imperfections*), tekstur basah/berminyak yang wajar, bukan render 3D.
-    - **Dilarang Keras (Gejala Render Makanan AI)**:
-      1. **Tekstur Sintetis**: Daging ayam menyerupai serat kabel/plastik, kerupuk menyerupai styrofoam/silikon, kacang atau bawang goreng mengilap seperti manik-manik kaca/plastik.
-      2. **Pencahayaan CGI**: Kilau specular berlebih (*specular highlights*), render seperti tanah liat/lilin halus (*clay/waxy look*), dan saturasi warna digital yang menyala menusuk mata.
-      3. **Properti Klise**: Meja kayu rustic lapuk (*rustic wooden table*), kain karung goni (*burlap*), mangkuk bumbu acak, dan sendok menancap kaku tanpa tangan.
-      4. **Trik Transisi**: Efek robekan cat / cipratan kuas (*brush splatter/grunge cut*) memotong foto ke latar.
-    - **Pilihan gaya alternatif**: Lukisan spanduk kain tradisional khas warung pecel lele / bubur ayam Indonesia (cat kuas kanvas tegas, kontras warna primer, gaya rakyat otentik).
-  - **Non-kuliner**: Gunakan fotografi nyata relevan atau tipografi tegas di atas latar bersih.
-- **Tipografi & Komposisi default**:
-  - **Dilarang Keras Teks Stiker Kartun**: Jangan gunakan teks gaya stiker YouTube/anak-anak (huruf gemuk lengkung dengan garis tepi ganda / *double white/black outline stroke*). Gunakan tipografi komersial/display profesional: tebal, bersih, solid (*solid bold sans-serif atau bold condensed display*), warna solid tanpa lapisan outline komik.
-  - **Komposisi**: Mangkuk produk terpotong bersih (*clean flat cutout*) di satu sisi, teks nama usaha proporsional di sisi lain dengan ruang negatif yang tenang. Latar belakang datar solid (*pure flat color*) tanpa tekstur atau ornamen tambahan.
+
+#### 1. Aturan Teks Mutlak (Zero-Tolerance Text Rule)
+- **DILARANG KERAS MENAMBAH KATA APAPUN**: Dilarang menambahkan kata `"Toko"`, `"Warung"`, `"Kedai"`, `"Pembukaan"`, `"Grand Opening"`, `"Spesial"`, `"Enak & Lezat"`, jam operasional, atau slogan karangan AI (seperti *"Bubur Hangat, Rasa Nikmat"*).
+- Teks pada kanvas **100% HANYA** teks yang diketik pengguna di brief. Jika brief hanya menulis "Bubur Mang Ujang", maka teks di banner HANYA huruf kapital: `"BUBUR MANG UJANG"`.
+
+#### 2. Larangan Total Segala Jenis Ilustrasi, Sketsa, Clipart, & Pita
+- **DILARANG ILUSTRASI/DOODLE**: Dilarang menggambar sketsa ayam jago, sketsa padi/beras, rumah adat, atau mangkuk kartun dengan uap uap garis meliuk.
+- **DILARANG PITA & BADGE**: Dilarang meletakkan teks di dalam pita melengkung (*ribbon banner*), bentuk badge, atau kotak stiker.
+- **Kanvas HANYA terdiri dari 3 elemen murni**:
+  1. Teks tipografi balok datar.
+  2. Satu foto produk kamera asli (tanpa talenan kayu, tanpa daun pisang, tanpa serbet, tanpa asap palsu).
+  3. Latar belakang datar polos satu warna.
+
+#### 3. Wajib Rumus Prompt Anti-Slop (Internal Prompt Formula)
+Saat menyusun instruksi untuk image generator, model **WAJIB** menyusun deskripsi visual sebagai **"Modern Swiss Typography Billboard / High-End Commercial Signboard"**, BUKAN *"Indonesian street food promo banner"* (karena frasa street food banner memicu DALL-E/Imagen menggambar kartun stiker dan sketsa klise):
+
+- **Tipografi**: *"Ultra-bold condensed geometric grotesque sans-serif uppercase typography, flat 2D solid commercial lettering in pure solid white (or deep solid dark), zero outline, zero stroke, zero drop shadow, zero comic brush script, zero ribbons."*
+- **Visual Produk**: *"Authentic 35mm DSLR documentary photograph of a real Indonesian chicken porridge bowl, crisp focus, natural window lighting, real shredded chicken, real irregular porous fried kerupuk with crispy oil bubbles (strictly no smooth styrofoam look), the bowl sits directly on a clean plain flat surface with zero cutting board, zero wooden coasters, zero checkered cloths, zero banana leaves, zero fake digital steam clouds."*
+- **Latar & Komposisi**: *"100% pure flat solid background color, split 60% massive bold typography on the left and 40% clean authentic product photography on the right. Strictly zero illustrations, zero sketches of roosters or rice stalks, zero cartoon bowls, zero paint brush strokes, zero vector swooshes."*
 
 ## Ketepatan isi
 
@@ -111,6 +117,11 @@ Jika pengguna hanya memberikan informasi minimal seperti ukuran dan nama usaha (
 | Elemen latar gelombang abstrak klise (*vector waves, blobs, swooshes, flowing curves*) gaya template Canva | Gunakan bidang latar solid bersih, pembagian geometris tegas fungsional, atau tekstur permukaan nyata (seperti kain spanduk/kayu netral). |
 | Ornamen budaya/etnik generik (batik, wayang, mandala) tempelan AI tanpa kaitan merek | Gunakan latar bersih atau grafis yang relevan; jangan menempelkan corak batik/etnik otomatis jika tidak diminta di brief. |
 | Tipografi gaya stiker kartun dengan *stroke* ganda tebal bertumpuk | Gunakan tipografi komersial/display yang tegas, bersih, dan kontras tinggi tanpa efek stiker kartun anak-anak. |
+| Font brush komik dengan aksen cipratan tetesan komik (*splash droplets*) dan warna teks bertabrakan | Gunakan tipografi komersial tebal kapital satu warna solid seragam tanpa aksen tetesan/cipratan komik. |
+| Garis sapuan kuas cat (*grunge brush stroke stripe*) memotong latar belakang | Gunakan latar belakang datar solid murni (*pure flat solid color*) atau pembagian dua blok warna geometris tegas. |
+| Alas talenan kayu bundar (*wooden board/coaster*) dan kain serbet kotak-kotak di bawah mangkuk | Letakkan mangkuk langsung di atas permukaan meja polos atau potong bersih (*clean flat cutout*) tanpa alas properti klise. |
+| Asap uap digital transparan (*fake CGI steam clouds*) membubung dari makanan | Tampilkan foto makanan nyata dengan pencahayaan alami tanpa manipulasi asap/uap sintetis. |
+| Kerupuk mulus bulat mengembang seperti busa styrofoam atau silikon plastik | Tampilkan tekstur pori-pori gelembung minyak gorengan asli dan ketidaksempurnaan bentuk alami. |
 
 Pola tersebut bukan larangan gaya mutlak. Permintaan eksplisit dan identitas merek boleh memakainya selama informasi tetap terbaca. Simetri, warna cerah, dan judul besar bukan otomatis desain buruk.
 

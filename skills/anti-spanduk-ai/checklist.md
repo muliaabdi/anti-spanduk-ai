@@ -12,7 +12,8 @@ Gunakan dimensi ini untuk mengkritik desain spanduk fisik dan banner media sosia
 
 ## 2. Tipografi & Keterbacaan
 - **Gaya Font Fungsional**: Menggunakan font komersial/display tebal, tegas, dan solid (*bold sans-serif* atau *condensed display*).
-- **Larangan Teks Stiker Kartun**: Dilarang menggunakan font kartun melengkung dengan outline ganda (*double comic outline*) gaya stiker YouTube/anak-anak kecuali diminta untuk target anak-anak.
+- **Larangan Teks Stiker Kartun**: Dilarang menggunakan font kartun melengkung dengan outline ganda (*double comic outline*) gaya stiker YouTube/anak-anak, font kuas komik (*comic brush script*), bayangan stiker sintetis, dan aksen cipratan tetesan komik (*comic droplets/splashes*).
+- **Keseragaman Warna Judul**: Nama usaha wajib menggunakan satu warna solid konsisten; dilarang memecah satu nama menjadi dua warna bertabrakan (misal: satu kata merah, kata berikutnya hijau).
 - **Skala Ukuran Huruf**: Maksimal 2–3 variasi ukuran font. Kontras ukuran antar-hierarki harus jelas (rasio ≥ 1.5x antar level).
 - **Spasi & Line-Height**: *Leading* rapat pada judul display (1.0–1.1), *tracking* tidak terlalu rapat sehingga huruf tidak bertabrakan saat dicetak.
 - **Keterbacaan Huruf Kecil**: Nomor kontak, alamat, atau tanggal tidak boleh memakai font dekoratif yang tipis atau meliuk-liuk.
@@ -30,21 +31,22 @@ Gunakan dimensi ini untuk mengkritik desain spanduk fisik dan banner media sosia
 ## 5. Otentisitas Foto Produk & Visual
 - **Fotografi Riil vs Render 3D CGI**: Produk fisik (terutama makanan/kuliner) wajib berupa fotografi riil (*authentic 35mm photograph, natural daylight, matte finish, authentic street-food look*).
 - **Larangan Gejala Render AI Makanan**:
-  - Bebas tekstur sintetis (daging seperti kabel serat, kerupuk styrofoam, bawang/kacang manik-manik plastik).
+  - Bebas tekstur sintetis: serat ayam suwir kawat, kerupuk styrofoam/silikon licin (kerupuk wajib memiliki pori-pori gelembung gorengan asli), bawang/kacang manik-manik plastik.
   - Bebas pencahayaan CGI/lilin/tanah liat (*waxy/clay render*) dan kilau plastik menusuk mata.
-  - Bebas uap asap palsu atau highlight HDR hiper-kontras.
+  - Bebas uap asap palsu transparan (*fake CGI steam/smoke*) atau highlight HDR hiper-kontras.
 - **Isolasi Produk Bersih**: Potongan produk bersih (*clean cutout*), bebas transisi robekan kuas/cipratan cat (*brush splatter grunge*).
-- **Bebas Properti Klise**: Tanpa meja kayu lapuk rustic, karung goni (*burlap*), mangkuk bumbu acak, atau sendok menancap kaku tanpa tangan.
+- **Bebas Properti Klise**: Tanpa talenan kayu bundar (*round wooden board/coaster*), serbet kotak-kotak (*checkered napkin*), meja kayu lapuk rustic, karung goni (*burlap*), mangkuk bumbu acak, atau sendok menancap kaku tanpa tangan.
 
 ## 6. Higienitas Anti-Slop (Bebas Pola AI Klise)
-- **Latar Belakang**: Latar solid, tekstur kain spanduk/permukaan nyata, atau pembagian geometris tegas; BUKAN gelombang vektor abstrak Canva (*vector waves, blobs, floating swooshes*).
+- **Latar Belakang**: Latar solid murni, tekstur kain spanduk/permukaan nyata, atau pembagian blok geometris tegas; BUKAN sapuan kuas cat (*grunge brush stroke stripe*) memotong bidang, BUKAN gelombang vektor abstrak Canva (*vector waves, blobs, floating swooshes*).
+- **Larangan Clipart, Vektor, & Sketsa**: Dilarang menyertakan ilustrasi kartun mangkuk, uap doodle, sketsa ayam jago, batang padi/beras, rumah adat, atau pita melengkung (*ribbon banner*).
 - **Ornamen Tanpa Fungsi**: Tanpa partikel cahaya (*confetti, flare, sparkle, floating dots, glow* di semua objek).
 - **Ornamen Tempelan**: Tanpa corak batik/wayang/mandala otomatis jika tidak relevan dengan identitas usaha.
 - **Simbol & Clipart**: Tanpa ikon infografis mikro (ikon jam bundar, pin lokasi aplikasi map, ikon gagang telepon 3D) jika teks bisa langsung ditulis rapi.
 
 ## 7. Ketepatan Konten & Tipografi Data
+- **Aturan Teks Mutlak (Zero-Tolerance Text)**: Teks di kanvas 100% HANYA teks dari brief. Dilarang menambahkan kata awalan/akhiran apa pun (`"Toko"`, `"Warung"`, `"Kedai"`, `"Pembukaan"`, `"Spesial"`) atau slogan fiktif (*"Bubur Hangat, Rasa Nikmat"*).
 - **Presisi Teks Brief**: Ejaan nama usaha, nama menu, angka harga, nomor telepon, dan tanggal 100% persis sesuai brief.
-- **Nol Halusinasi**: Tidak ada klaim promosi fiktif, slogan karangan AI ("Solusi Terbaik", "Kelezatan Tiada Tara"), atau jam buka palsu yang tidak ada di brief.
 - **Keaslian Kode/Elemen Teknis**: Dilarang membuat QR code atau barcode tiruan generator yang tidak bisa discan; sertakan placeholder resmi atau jelaskan keterbatasannya.
 
 ## 8. Kebutuhan Teknis Cetak Fisik
